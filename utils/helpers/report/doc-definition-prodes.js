@@ -1161,7 +1161,7 @@ module.exports = function (headerDocument, reportData, title) {
       },
       {
         text: `Este relatório técnico foi validado em ${reportData.currentDate} por: `,
-        margin: [30, 0, 30, 60],
+        margin: [30, 0, 30, 150],
         alignment: 'center',
         style: 'body'
       },
@@ -1189,6 +1189,11 @@ module.exports = function (headerDocument, reportData, title) {
         columns: [
           reportData.images.partnerImage7,
           reportData.images.partnerImage8,
+          reportData.images.partnerImage10
+        ]
+      },
+      {
+        columns: [
           reportData.images.partnerImage9
         ]
       }
